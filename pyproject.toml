@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ai-travel-companion"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "n"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pydantic = "2.9.2"
+langchain = "0.3.17"
+langchain-google-genai = "2.0.9"
+langgraph = "0.2.69"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.3.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
